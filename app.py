@@ -166,7 +166,7 @@ with tab2:
             alt.datum.Angle <= -9.0
         )
 
-        # 3. Layer them together and display
+        # Combine them together and show
         final_chart = alt.layer(line_chart, red_dots).interactive()
         st.altair_chart(final_chart, use_container_width=True)
 
